@@ -1,0 +1,51 @@
+.service__list {
+  display: flex;
+  margin-bottom: 70px;
+
+  @include mq('sp') {
+    display: block;
+    margin-bottom: 40px;
+  }
+}
+
+.service__item {
+  width: 33.3%;
+
+  @include mq('sp') {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    line-height: 320px;
+    font-size: 4rem;
+    font-weight: bold;
+    font-style: italic;
+    transition: .3s;
+
+    &:hover {
+      background: rgba(40,47,53,0.7);
+      transition: .3s;
+    }
+
+    @include mq('sp') {
+      line-height: 250px;
+    }
+  }
+}
+
+.service1 {
+  background-image: url(/img/service-img01@2x.jpg);
+}
+
+.service2 {
+background-image: url(/img/service-img02@2x.jpg);
+}
+
+.service3 {
+background-image: url(/img/sevice-img03@2x.jpg);
+}

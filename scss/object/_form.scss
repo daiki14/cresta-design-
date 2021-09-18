@@ -1,0 +1,128 @@
+/* ==============================================================
+# page-title
+=========================================================== */
+.page__title__wrapper {
+  height: 453px;
+  background-image: url(/img/contact-page-bgi@2x.jpg);
+  background-size: cover;
+  background-position: center;
+
+  @include mq('sp') {
+    height: 360px;
+  }
+}
+
+.page__title {
+  font-size: 6rem;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  padding-top: 186px;
+  color: #fff;
+
+  @include mq('sp') {
+    font-size: 3rem;
+    padding-top: 175px;
+  }
+}
+
+.page__title__bottom {
+  font-size: 9rem;
+  color: #fff;
+  opacity: 0.1;
+  margin: 20px 0 0 48px;
+
+  @include mq('sp') {
+    font-size: 4rem;
+    margin: 40px 0 0 15px;
+  }
+}
+
+
+
+/* ==============================================================
+# form
+=========================================================== */
+.form__wrapper {
+  padding: 100px 0 80px;
+}
+
+.form__list {
+  max-width: 700px;
+  margin: 0 auto 80px;
+  padding: 0 50px;
+
+  @include mq('sp') {
+    padding: 0 15px;
+  }
+}
+
+.form__item {
+  margin-bottom: 25px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.form__label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,textarea {
+  resize: none;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  border: 1px solid #141414;
+  width: 100%;
+  color: #171717;
+  box-sizing: border-box;
+}
+
+.input__text {
+  padding: 0 8px;
+  line-height: 30px;
+}
+
+textarea {
+  height: 170px;
+  padding: 0 8px;
+  line-height: 30px;
+}
+
+.checkbox__list {
+  display: flex;
+  margin-top: 10px;
+
+  @include mq('sp') {
+    display: block;
+  }
+}
+
+.checkbox__item {
+  margin-right: 20px;
+
+  @include mq('sp') {
+    margin-right: 0;
+  }
+}
+
+.checkbox__label,
+.checkbox {
+  cursor: pointer;
+}
+
+.checkbox {
+  border: solid 1px #282f35;
+  height: 10px;
+  width: 9px;
+  margin-right: 10px;
+  vertical-align: top;
+
+  &:checked {
+    background: #333;
+  }
+}

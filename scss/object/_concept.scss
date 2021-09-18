@@ -1,0 +1,47 @@
+.concept {
+
+}
+
+.concept__lead {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 60px;
+  font-weight: bold;
+  line-height: 1.7;
+
+  @include mq('sp') {
+    font-size: 2rem;
+    margin-bottom: 32px;
+  }
+}
+
+.concept__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 70px;
+
+  @include mq('sp') {
+    display: block;
+    margin-bottom: 40px;
+  }
+}
+
+.concept__text {
+  max-width: 440px;
+  line-height: 1.9;
+  font-weight: bold;
+
+  @include mq('sp') {
+    margin-bottom: 30px;
+  }
+}
+
+.concept__img__wrapper {
+  max-width: 440px;
+  margin-left: 20px;
+
+  @include mq('sp') {
+    margin: 0;
+  }
+}

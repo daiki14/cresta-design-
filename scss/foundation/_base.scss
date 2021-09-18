@@ -1,0 +1,153 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  letter-spacing: .05em;
+  color: #171717;
+  font-family: 'Noto Serif', serif;
+  font-family: 'Noto Serif', 'Noto Serif JP', serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.section__wrapper {
+  padding: 100px 0 70px;
+
+  @include mq('sp') {
+    padding: 100px 0 40px;
+  }
+}
+
+.title {
+  max-width: 1000px;
+  color: #282F35;
+  font-size: 6rem;
+  font-style: italic;
+  margin: 0 auto 80px;
+  padding: 0 20px;
+
+  @include mq('sp') {
+    padding: 0 4vw;
+    font-size: 3rem;
+    margin-bottom: 50px;
+  }
+
+  &::after {
+    content: "";
+    display: inline-block;
+    background: #282F35;
+    width: 200px;
+    height: 5px;
+    margin-left: 30px;
+    vertical-align: middle;
+
+    @include mq('sp') {
+      width: 90px;
+    }
+  }
+}
+
+.inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 50px;
+
+  @include mq('sp') {
+    padding: 0 4vw;
+  }
+}
+
+.section__bottom {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 9rem;
+  opacity: 0.05;
+
+  @include mq('sp') {
+    font-size: 4rem;
+    padding: 0 4vw;
+  }
+}
+
+.link__btn {
+  display: block;
+  width: 235px;
+  line-height: 60px;
+  margin: 0 auto 70px;
+  background: #f7b43f;
+  box-shadow: 0 0 6px #1b1310;
+  border-radius: 30px;
+  text-align: center;
+  font-weight: bold;
+  transition: .3s;
+  cursor: pointer;
+
+  @include mq('sp') {
+    margin-bottom: 40px;
+  }
+
+  &:hover {
+    opacity: .7;
+    transition: .3s;
+  }
+}
+
+.submit__btn {
+  display: block;
+  width: 235px;
+  line-height: 60px;
+  margin: 0 auto 70px;
+  background: #f7b43f;
+  box-shadow: 0 0 6px #1b1310;
+  border-radius: 30px;
+  text-align: center;
+  font-weight: bold;
+  transition: .3s;
+  cursor: pointer;
+  border: none;
+
+  @include mq('sp') {
+    margin-bottom: 40px;
+  }
+
+  &:hover {
+    opacity: .7;
+    transition: .3s;
+  }
+}
+
+.text__right {
+  text-align: right;
+}
+
+.text__white {
+  color: #fff;
+
+  &::after {
+    background: #fff;
+  }
+}
+
+
+.sp-br {
+  display: none;
+
+  @include mq('sp') {
+    display: block;
+  }
+}
+.pc-br {
+  @include mq('sp') {
+    display: none;
+  }
+}
