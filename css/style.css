@@ -541,7 +541,7 @@ button {
 }
 
 .works {
-  background-image: url(/img/works-bgi@2x.jpg);
+  background-image: url(../img/works-bgi@2x.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -635,19 +635,19 @@ button {
 }
 
 .service1 {
-  background-image: url(/img/service-img01@2x.jpg);
+  background-image: url(../img/service-img01@2x.jpg);
 }
 
 .service2 {
-  background-image: url(/img/service-img02@2x.jpg);
+  background-image: url(../img/service-img02@2x.jpg);
 }
 
 .service3 {
-  background-image: url(/img/sevice-img03@2x.jpg);
+  background-image: url(../img/sevice-img03@2x.jpg);
 }
 
 .contact {
-  background-image: url(/img/contact-bgi@2x.jpg);
+  background-image: url(../img/contact-bgi@2x.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -664,7 +664,7 @@ button {
 =========================================================== */
 .page__title__wrapper {
   height: 453px;
-  background-image: url(/img/contact-page-bgi@2x.jpg);
+  background-image: url(../img/contact-page-bgi@2x.jpg);
   background-size: cover;
   background-position: center;
 }
